@@ -16,3 +16,5 @@ while True:
         STATE = not STATE
         GPIO.output(LIGHT, STATE)
         time.sleep(0.2)
+
+        
